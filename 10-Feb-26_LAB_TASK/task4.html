@@ -9,68 +9,44 @@
 
 <body>
 
-    <form action="#" method="post">
-
-        <fieldset>
-
-            <legend>Personal Information</legend>
-
+	<form action="#" method="post">
+		<fieldset>
+			<legend>Personal Information</legend>
 			<label for="fullname">Full Name:</label>
-			<input type="text" id="fullname" required>
-            <br><br>
-
+			<input type="text" id="fullname" name="fullname" required><br>
 			<label for="email">Email Address:</label>
-			<input type="email" id="email" required>
-            <br><br>
-
+			<input type="email" id="email" name="email" required><br>
 			<label for="password">Password:</label>
-			<input type="password" id="password" required>
-            <br><br>
-
+			<input type="password" id="password" name="password" required><br>
 			<label for="dob">Date of Birth:</label>
-			<input type="date" id="dob" required>
-            <br><br>
-
+			<input type="date" id="dob" name="dob" required><br>
 			<label>Gender:</label>
 			<input type="radio" id="male" name="gender" value="male" required>
 			<label for="male">Male</label>
 			<input type="radio" id="female" name="gender" value="female">
-			<label for="female">Female</label>
-
-        </fieldset>
-
+			<label for="female">Female</label><br>
+		</fieldset>
 		<fieldset>
-
-            <legend>Academic Information</legend>
-
+			<legend>Academic Information</legend>
 			<label for="department">Department:</label>
-			
-            <select id="department" name="department" required>
+			<select id="department" name="department" required>
 				<option value="">Select</option>
 				<option value="cse">CSE</option>
 				<option value="eee">EEE</option>
 				<option value="ds">DS</option>
 				<option value="cncs">CNCS</option>
-			</select>
-            
-            <br><br>
-
+			</select><br>
 			<label>Skills:</label>
-			<input type="checkbox" id="html" name="skills">
+			<input type="checkbox" id="html" name="skills" value="html">
 			<label for="html">HTML</label>
-			<input type="checkbox" id="css" name="skills">
+			<input type="checkbox" id="css" name="skills" value="css">
 			<label for="css">CSS</label>
-			<input type="checkbox" id="js" name="skills">
-			<label for="js">JavaScript</label>
-
+			<input type="checkbox" id="js" name="skills" value="js">
+			<label for="js">JavaScript</label><br>
 		</fieldset>
-
-		<br>
-
 		<input type="submit" value="Submit">
 		<input type="reset" value="Reset">
-	
-    </form>
+	</form>
 
 </body>
 
