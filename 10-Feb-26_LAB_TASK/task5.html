@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="description" content="A template for an academic profile page.">
+	<meta name="keywords" content="academic, profile, education, contact">
+	<meta name="author" content="Bob Mahson">
+
+	<title>Task-5</title>
+
+</head>
+
+<body>
+	<header>
+		<h1>Bob Mahson</h1>
+		<nav>
+			<ul>
+				<li><a href="#about-me">About Me</a></li>
+				<li><a href="#education">My Education</a></li>
+				<li><a href="#contact">Contact Me</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main id="profile">
+		<section id="about-me">
+			<h2>About Me</h2>
+			<p>
+				Bob Mahson is a cybersecurity student with a strong focus on penetration testing, red teaming, and practical security research.
+				He is proficient in JavaScript, Python, and C, with solid experience across Linux, Windows, and macOS environments.
+				His interests span network security, hardware security, and offensive security tooling, including Active Directory and wireless attack research.
+			</p>
+		</section>
+		<section id="education">
+			<h2>My Education</h2>
+			<table>
+				<caption>Academic Qualifications</caption>
+				<thead>
+					<tr>
+						<th scope="col">Degree</th>
+						<th scope="col">Institution</th>
+						<th scope="col">Year</th>
+						<th scope="col">GPA</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>B.Sc CNCS</td>
+						<td>AIUB</td>
+						<td>2024</td>
+						<td>4.0</td>
+					</tr>
+					<tr>
+						<td>HSC</td>
+						<td>Hogwarts</td>
+						<td>2021</td>
+						<td>5.0</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+		<section id="contact">
+			<h2>Contact Me</h2>
+			<form>
+				<fieldset>
+					<legend>Contact Information</legend>
+					<div>
+						<label for="name">Name:</label>
+						<input type="text" id="name" name="name" required placeholder="Enter Full name" maxlength="50">
+					</div>
+					<div>
+						<label for="email">Email:</label>
+						<input type="email" id="email" name="email" required placeholder="Enter Email" maxlength="50">
+					</div>
+					<div>
+						<label for="phone">Phone:</label>
+						<input type="tel" id="phone" name="phone" pattern="[0-9]{10,15}" placeholder="Enter Phone Number" maxlength="15">
+					</div>
+					<div>
+						<label for="message">Message:</label>
+						<textarea id="message" name="message" required placeholder="Type your message here" maxlength="500"></textarea>
+					</div>
+					<div>
+						<button type="submit">Send</button>
+					</div>
+				</fieldset>
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>Contact: bob.mahson@techbox.com &mdash; &copy; 2026 Bob Mahson</p>
+	</footer>
+</body>
+</html>
