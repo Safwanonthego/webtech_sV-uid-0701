@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Task 01: Introduction to CSS and Basic Selectors</title>
+    <style>
+        * {
+            font-family: Arial, sans-serif;
+        }
+        p {
+            color: #333;
+            font-size: 18px;
+        }
+        .highlight {
+            background-color: #fffae6;
+            color: #d2691e;
+        }
+        #mainTitle {
+            color: #2e8b57;
+            text-align: center;
+            font-size: 32px;
+        }
+    </style>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <h1 id="mainTitle">Lab Task 01: Introduction to CSS and Basic Selectors</h1>
+    <p>This paragraph is styled using the element selector and internal CSS.</p>
+    <p class="highlight">This paragraph uses the class selector and internal CSS.</p>
+    <p style="color: blue; background-color: #e0f7fa; font-size: 20px;">This paragraph is styled with inline CSS.</p>
+    <div class="highlight">This div uses the class selector and will be styled by external CSS.</div>
+    <footer>
+        <p>Created on 26-Feb-26</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,67 @@
+/* Box Model Demonstration */
+.box {
+    width: 200px;
+    height: 80px;
+    margin: 20px;
+    padding: 15px;
+    border: 3px solid #3498db;
+    background-color: #eaf6ff;
+    display: block;
+}
+.box1 {
+    /* Default box-sizing: content-box */
+    box-sizing: content-box;
+    background-color: #f9e6ff;
+    border-color: #e67e22;
+    margin: 10px;
+    padding: 20px;
+}
+.box2 {
+    box-sizing: border-box;
+    background-color: #d4efdf;
+    border-color: #2ecc40;
+    margin: 30px;
+    padding: 10px;
+}
+.box3 {
+    background-color: #fffbe6;
+    border-color: #d2691e;
+    margin: 40px;
+    padding: 5px;
+}
+
+/* Display Properties */
+.display-block {
+    display: block;
+    background-color: #d6eaf8;
+    margin-bottom: 10px;
+}
+.display-inline {
+    display: inline;
+    background-color: #f5b7b1;
+    padding: 5px;
+}
+.display-inline-block {
+    display: inline-block;
+    background-color: #f9e79f;
+    padding: 5px 15px;
+    margin: 5px;
+}
+.display-none {
+    display: none;
+}
+
+/* Visibility vs Display */
+.visibility-hidden {
+    visibility: hidden;
+    background-color: #d2b4de;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+    margin-top: 2em;
+}

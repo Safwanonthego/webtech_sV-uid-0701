@@ -1,0 +1,73 @@
+/* Group selector */
+h1, h2 {
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+/* Descendant selector */
+div.unit-demo p {
+    font-size: 1.2em;
+    margin: 8px 0;
+}
+
+/* Absolute units */
+.absolute {
+    font-size: 18px;
+    margin-bottom: 5mm;
+}
+.box {
+    width: 5cm;
+    padding: 1em;
+    background-color: #eaf6ff;
+    margin-bottom: 2em;
+}
+
+/* Relative units */
+.relative {
+    font-size: 120%;
+    margin-left: 5vw;
+}
+.box-relative {
+    width: 50%;
+    margin-top: 5vh;
+    background-color: #f9e6ff;
+}
+.rem-demo {
+    font-size: 1.5rem;
+}
+.vw-demo {
+    font-size: 3vw;
+}
+
+/* Attribute selector */
+input[type="text"] {
+    border: 2px solid #3498db;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+/* Pseudo-classes */
+button:hover {
+    background-color: #2ecc40;
+    color: #fff;
+}
+button:active {
+    background-color: #27ae60;
+}
+input:focus {
+    border-color: #e67e22;
+    outline: none;
+}
+a.link:hover {
+    color: #e74c3c;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+    margin-top: 2em;
+}
