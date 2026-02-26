@@ -1,0 +1,6 @@
+body { font-family: Arial, sans-serif; background: #f7f7f7; margin: 20px; }
+form { background: #fff; padding: 16px; border-radius: 8px; box-shadow: 0 2px 8px #eee; }
+fieldset { margin-bottom: 12px; border-radius: 6px; }
+legend { font-weight: bold; color: #2a4d7a; }
+label { margin-right: 8px; }
+input, select, textarea { margin-bottom: 8px; }

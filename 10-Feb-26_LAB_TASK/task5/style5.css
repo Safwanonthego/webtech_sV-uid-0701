@@ -1,0 +1,10 @@
+body { font-family: 'Segoe UI', sans-serif; background: #f5f5fa; margin: 20px; }
+header { background: #e3eaf2; padding: 12px; border-radius: 8px; }
+h1 { color: #2a4d7a; }
+nav ul { list-style: none; padding: 0; }
+nav li { display: inline; margin-right: 16px; }
+main { background: #fff; padding: 16px; border-radius: 8px; box-shadow: 0 2px 8px #eee; }
+table { border-collapse: collapse; width: 100%; margin-top: 16px; }
+th, td { border: 1px solid #bbb; padding: 8px; }
+th { background: #d0d8e8; }
+footer { margin-top: 20px; color: #555; }

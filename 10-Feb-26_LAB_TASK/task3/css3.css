@@ -1,0 +1,6 @@
+body { font-family: 'Segoe UI', sans-serif; background: #f4f8fb; margin: 20px; }
+header, nav, footer { background: #e3eaf2; padding: 10px; border-radius: 6px; }
+h1 { color: #2a4d7a; }
+table { border-collapse: collapse; margin: 20px 0; width: 100%; }
+th, td { border: 1px solid #bbb; padding: 8px; }
+th { background: #d0d8e8; }
